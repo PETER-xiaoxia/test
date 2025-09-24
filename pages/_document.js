@@ -18,7 +18,6 @@ export default function Document() {
         {/* 安全相关 */}
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
-        <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
 
         <title>AI编程 - 未来已来</title>
       </Head>
