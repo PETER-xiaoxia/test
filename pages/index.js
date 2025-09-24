@@ -1,13 +1,17 @@
+import WechatGuide from '../components/WechatGuide'
+
 export default function Home() {
   return (
-    <div className="poster">
-      <div className="background-pattern"></div>
-      <div className="robot-icon">🤖</div>
+    <>
+      <WechatGuide />
+      <div className="poster">
+        <div className="background-pattern"></div>
+        <div className="robot-icon">🤖</div>
 
-      <div className="header">
-        <h1 className="main-title">AI编程</h1>
-        <p className="subtitle">编程的未来，今天开始</p>
-      </div>
+        <div className="header">
+          <h1 className="main-title">AI编程</h1>
+          <p className="subtitle">编程的未来，今天开始</p>
+        </div>
 
       <div className="content">
         <div className="features">
@@ -51,5 +55,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }
